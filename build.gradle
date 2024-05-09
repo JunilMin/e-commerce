@@ -31,6 +31,9 @@ dependencies {
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'junit:junit:4.13.2'
+	implementation 'io.appium:java-client:7.5.1'
+	implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 }
 
 tasks.named('test') {
